@@ -683,6 +683,7 @@ MonoBehaviour:
   - {fileID: 7864353714486774375, guid: e71f3521acaa84044b5db10cefbe695d, type: 3}
   - {fileID: 5831349010995768167, guid: 045eb36071b9b874cbd6030fb6fcf269, type: 3}
   scoreText: {fileID: 242480352}
+  gameOverText: {fileID: 2028073419}
 --- !u!4 &857013766
 Transform:
   m_ObjectHideFlags: 0
@@ -962,7 +963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2028073418
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1011,7 +1012,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.7924528, g: 0.115877524, b: 0.35672218, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
